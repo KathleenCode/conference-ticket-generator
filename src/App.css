@@ -19,7 +19,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: 1px thin rgba(36, 160, 181, 0.20);
-  /* box-shadow: 0px 4px 10px rgba(20, 62, 117, 0.2); */
 }
 
 .home {
@@ -117,34 +116,13 @@ body {
   color: white;
 }
 
-/* .bubox:first-of-type .group .ela {
-  color: white;
-  border: 1px solid #22adc5;
-  background: #02191D;
-} */
 
-/* .bubox:last-of-type {
-  background: #02191D;
-  /* visibility: hidden;  */
-/* } */ */
-
-/* .bubox:last-of-type .ela {
-  background: #02191D;
-  visibility: hidden; 
-} */
-
-/* .bubox:last-of-type .group {
-  background: #02191D;
-  visibility: hidden; 
-} */
-
-/* Divider line below "Select Your Ticket" */
 .ticket-divider {
   width: 99%;
   margin: 10px auto;
   border: none;
   height: 2px;
-  background: linear-gradient(to right, #053107, #24922a); /* Gradient Green */
+  background: linear-gradient(to right, #053107, #24922a);
 }
 
 .ticket-divider1 {
@@ -152,7 +130,7 @@ body {
   margin: 10px auto;
   border: none;
   height: 2px;
-  background: #4caf50 /* Gradient Green */
+  background: #4caf50;
 }
 
 .ela {
@@ -253,7 +231,6 @@ input:focus {
   outline: lawngreens;
 }
 
-/* Input Container */
 .input-container {
   position: relative;
   display: flex;
@@ -262,7 +239,6 @@ input:focus {
   max-width: 300px;
 }
 
-/* Input Field */
 .input-field {
   width: 100%;
   padding: 10px 10px 10px 40px; 
@@ -271,7 +247,6 @@ input:focus {
   font-size: 16px;
 }
 
-/* Icon Styling */
 .input-icon {
   position: absolute;
   top: 657px;
@@ -280,9 +255,6 @@ input:focus {
   padding-left: 10px;
 }
 
-/* #24A0B50% */
-
-/* Upload Preview */
 .preview {
   width: 90%;
   height: 140px;
@@ -335,27 +307,6 @@ input:focus {
   cursor: pointer;
 }
 
-/* .back {
-  background: white;
-  color: #064e3b;
-  padding: 5px 7px;
-  font-size: 26px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-  width: 50%;
-  align-self: center;
-  box-shadow: 4px 4px 5px coral; */
-  /* font-weight: bold; */
-/* } */
-
-/* button:hover {
-  background: #f0fdf4;
-  color: #21ebb1;
-} */
-
-/* Error Messages */
 .error {
   color: orange;
   font-size: 20px;
@@ -372,18 +323,10 @@ input:focus {
   margin: 20px auto;
   padding: 20px;
   background: radial-gradient(52.52% 32.71% at 50% 17.66%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), #02191D;
-  border: 2px solid #24b3cc; /* Outermost Deep Green Border */
-  border-radius: 20px 20px 20px 20px; /* Inward border-radius */
+  border: 2px solid #24b3cc;
+  border-radius: 20px 20px 20px 20px;
   position: relative;
-  /* overflow: hidden; */
 }
-
-/* .container {
-  position: relative;
-  background: white;
-  padding: 20px;
-  border-radius: 20px;
-} */
 
 .containere::before,
 .containere::after {
@@ -405,22 +348,12 @@ input:focus {
   right: -15px;
   border-bottom-left-radius: 30px;
 }
-
-
-/* .containere::before,
-.containere::after {
-  box-shadow: 0 0 0 5px white;
-} */
-
-
-/* Ticket Card */
 .ticket {
   background: radial-gradient(52.52% 32.71% at 50% 17.66%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), #02191D;
   border-radius: 20px;
   padding: 20px;
   width: 90%;
   border: 2px solid #24b3cc;
-  /* position: relative; */
  }
 
  
@@ -469,20 +402,12 @@ input:focus {
   justify-content: center;
 }
 
- /* .tickette {
-  background: radial-gradient(52.52% 32.71% at 50% 17.66%, rgba(41, 181, 206, 0.2) 0%, rgba(40, 181, 206, 0) 100%), #02191D;
-  border-radius: 20px;
-  margin: 10px;
-  border: 2px thin rgba(36, 160, 181, 0.20);
- } */
-
 .ticke {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid rgba(36, 160, 181, 0.20);
   border-radius: 20px;
 }
-
 
 .ticke div::before,
 .ticke div::after {
@@ -560,7 +485,6 @@ input:focus {
   margin: 20px 0;
 }
 
-/* Ticket Buttons */
 .ticket-buttons {
   display: flex;
   justify-content: space-between;
@@ -568,7 +492,6 @@ input:focus {
   padding: 16px;
 }
 
-/* Book Another Ticket Button (Green on Green Shades) */
 .book-again {
   background: #02191D;
   color: #24b3cc;
@@ -587,15 +510,6 @@ input:focus {
   background: whitesmoke;
 }
 
-/* .ticket-dividere {
-  width: 99%;
-  margin: 10px auto;
-  border: none;
-  height: 2px;
-  background: linear-gradient(to right, #053107, #24922a); Gradient Green */
-/* } */
-
-/* Download Ticket Button (White on Green) */
 .download-ticket {
   background: #22adc5;
   color: white;
@@ -611,17 +525,6 @@ input:focus {
   background: #047857;
   color: #f0fdf4;
 }
-
-
-/* .ticket {
-  background: #10b981;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-} */
 
 .dropzone {
   margin: 20px;
@@ -671,223 +574,3 @@ input:focus {
     width: 95%;
   }
 }
-
-
-
-
-/* body {
-  font-family: "Arial", sans-serif;
-  text-align: center;
-  background: #f0fdf4; 
-  color: #064e3b; 
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 500px;
-  margin: 50px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.2);
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-label {
-  font-weight: bold;
-  color: #065f46; 
-  text-align: left;
-  display: block;
-  margin-bottom: 5px;
-}
-
-input {
-  padding: 10px;
-  border: 2px solid #10b981; 
-  border-radius: 5px;
-  outline: none;
-  transition: border 0.3s ease-in-out;
-}
-
-input:focus {
-  border: 2px solid #047857; 
-}
-
-.preview {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #10b981;
-  margin-top: 10px;
-}
-
-button {
-  background: #10b981; 
-  color: white;
-  padding: 12px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-}
-
-button:hover {
-  background: #047857;
-}
-
-.error {
-  color: #d32f2f;
-  font-size: 14px;
-}
-
-.ticket {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.2);
-  text-align: center;
-  margin-top: 20px;
-}
-
-.ticket h2 {
-  color: #047857;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 3px solid #10b981;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: 95%;
-  }
-} */
-
-
-
-/* body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: #f4f4f4;
-}
-
-.container {
-  width: 90%;
-  max-width: 500px;
-  margin: 50px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-input {
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  background: #007bff;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 15px;
-}
-
-button:hover {
-  background: #0056b3;
-}
-
-.error {
-  color: red;
-  font-size: 14px;
-}
-
-.preview {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-
-.ticket {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-} */
-
-
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
