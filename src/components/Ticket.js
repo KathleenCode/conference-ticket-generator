@@ -24,7 +24,7 @@ const Ticket = ({ fullName, email, avatar, onReset, ticketType, ticketQuantity, 
           <hr className="ticket-dividere" />
 
           <h2>Your  Ticket is Booked!</h2>
-          <p>You can download or Check your email for a copy</p>
+          <p>Check your email for a copy  you can <strong>download</strong></p>
         <div className="containere">
 
           <div className="ticket" id="ticket">
