@@ -2,6 +2,7 @@ import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import qrCode from "../assets/barcode.jpg";
 import { IoPinOutline } from "react-icons/io5";
+import { FaRegCalendarAlt } from "react-icons/fa";
 
 const Ticket = ({ fullName, email, avatar, onReset, ticketType, ticketQuantity, specialRequest }) => {
     const handleDownload = () => {
@@ -30,10 +31,11 @@ const Ticket = ({ fullName, email, avatar, onReset, ticketType, ticketQuantity, 
           <div className="ticket" id="ticket">
           <div className="event-details">
                   <h3>Techember Fest ''25</h3>
-                  <h4>Join us for an unforgettable experience at <br></br> [Event Name] Secure your spot now</h4>
+                  <h4><IoPinOutline color="red"/>
+                   04 Rumens Road,Ikoyi,Lagos</h4>
                   <p>
-                  <IoPinOutline color="red"/>
-                  [Event Location] || March 15,2025 | 7:00pm
+                  <FaRegCalendarAlt color="white"/>
+                   March 15,2025 | 7:00pm
                   </p>
               </div>
             <div className="tickette">
@@ -49,6 +51,7 @@ const Ticket = ({ fullName, email, avatar, onReset, ticketType, ticketQuantity, 
           </div>
           <div className="code">
                 <img src={qrCode} alt="Avatar" className="qrcode" />
+                <p className="see"><span>1</span><span>234567</span><span>891026</span></p>
           </div>
         </div>
           <div className="ticket-buttons">

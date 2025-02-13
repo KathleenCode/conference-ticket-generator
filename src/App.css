@@ -104,8 +104,8 @@ body {
 }
 
 .group.selected {
-  background-color: #47e04c;
-  border-color: #2dce35;
+  background-color: #378839;
+  border-color: #47a34c;
 }
 
 .group:hover {
@@ -158,10 +158,10 @@ body {
 }
 
 .homebuos {
-  background: #02191D;
-  border: 1px thin rgba(36, 160, 181, 0.20);
+  /* background: #02191D;
+  border: 1px thin rgba(36, 160, 181, 0.20); */
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 4px;
   display: flex;
   justify-content: space-around;
@@ -172,9 +172,10 @@ body {
   color: #24b3cc;
   border: 1px solid #22adc5;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 50px;
   font-size: 15px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .homebuos .next:hover, .homebuos .next:focus {
@@ -186,7 +187,7 @@ body {
   color: white;
   background: #24A0B5;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 50px;
   font-size: 15px;
   border: none;
   cursor: pointer;
@@ -249,9 +250,13 @@ input:focus {
   font-size: 16px;
 }
 
+.one {
+  position: relative;
+}
+
 .input-icon {
   position: absolute;
-  top: 657px;
+  top: 647px;
   color: white;
   font-size: 15px;
   padding-left: 10px;
@@ -432,6 +437,7 @@ input:focus {
   right: -15px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  border-bottom-color: #02191D;
 }
 
 .ticke div {
@@ -461,6 +467,10 @@ input:focus {
   margin-top: -1px;
 }
 
+.tickette {
+  padding-bottom: 22px;
+}
+
 .avatar {
   display: block;
   margin: 30px auto;
@@ -473,9 +483,16 @@ input:focus {
 .qrcode {
   width: 300px;
   padding: 9px;
-  height: 90px;
+  height: 70px;
   display: block;
-  margin: 10px auto;
+  margin: 7px auto;
+}
+
+.code .see {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  font-size: 10px;
 }
 
 .code::before {
@@ -526,6 +543,35 @@ input:focus {
 .download-ticket:hover {
   background: #047857;
   color: #f0fdf4;
+}
+
+.headere {
+  background: transparent;
+  border: 2px solid rgba(36, 160, 181, 0.20);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 60px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.labele {
+  font-family:"Nanum Myeongjo";
+  font-style: italic;
+}
+
+.labele + div span {
+  padding: 10px;
+}
+
+.buttone {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 3px 7px;
 }
 
 .dropzone {
